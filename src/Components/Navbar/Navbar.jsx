@@ -18,8 +18,9 @@ export default function Navbar() {
 
         <div>
           
-          <button className='py-2 bg-amber-300 px-6 rounded-lg font-medium hover:bg-amber-400 cursor-pointer'>
-           {status === 'logout' ? Login : Logout}
+          <button className='py-2 bg-amber-300 px-6 rounded-lg font-medium hover:bg-amber-400 cursor-pointer'
+          onClick={toggleStatus}>
+           {status === 'Logout' ? 'Login' : 'Logout'}
           </button>
 
         </div>
