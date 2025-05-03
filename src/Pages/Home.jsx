@@ -8,7 +8,7 @@
     return (
       <div className='my-20 px-20'>
         
-        <h1 className='text-[2.2rem] font-semibold'>{status == 'Logout' ? 'Please Login' : "Welcome"}</h1>
+        <h1 className='text-[2.2rem] font-semibold'>{status == 'Logout' ? 'Please Login' : "Welcome to Your DashBoard"}</h1>
 
       </div>
     )
